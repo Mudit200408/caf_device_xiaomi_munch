@@ -20,6 +20,10 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/qcom
 
+# Misc. Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/xiaomi/munch/sepolicy/vendor/misc/kprofiles
+    
 # Xiaomi Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/audio \
@@ -36,4 +40,5 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/touch \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/usb \
     device/xiaomi/munch/sepolicy/vendor/xiaomi/wireless \
-    device/xiaomi/munch/sepolicy/vendor/xiaomi/wlan
+    device/xiaomi/munch/sepolicy/vendor/xiaomi/wlan \
+    

@@ -90,6 +90,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 KERNEL_DEFCONFIG := munch_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 
+
 KERNEL_LLVM_SUPPORT := true
 
 # Partitions

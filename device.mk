@@ -152,6 +152,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     debug.sf.enable_hwc_vds=1 \
     persist.sys.sf.native_mode=258 \
+    debug.sf.frame_rate_multiple_threshold=60 \
     ro.surface_flinger.set_idle_timer_ms=1000 \
     ro.surface_flinger.set_touch_timer_ms=1000 \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
@@ -263,6 +264,10 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.hardware.keystore_desede=true \
     vendor.gatekeeper.disable_spu=true
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+    
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail_vendor \
